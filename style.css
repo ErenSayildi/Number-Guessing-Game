@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+              
+}
+
+.Container
+{
+   background: rgb(10, 33, 77);
+   border: solid 5px rgb(0, 0, 0);
+   border-radius: 20px;
+   max-width: 1200px;
+   height: 25vw;
+   width: 100vh;
+   padding: 5px;
+   box-shadow: 0px 20px 25px rgba(0,0,0,0.1);
+   position: absolute;  
+   left: 27%; 
+   top: 16vh;   
+}
+
+h1
+{
+    position: absolute;
+    top: 6vh;
+    left: 23vh;
+    color: #FFFFFF;
+    text-shadow: 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 2px 2px 2px rgba(206,89,55,0);
+}
+
+#Sonuc
+{
+    text-shadow: 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 2px 2px 2px rgba(206,89,55,0);
+}
+
+input
+{
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16vh;
+    font-weight: bold;
+    border-radius: 2rem;
+}  
+
+body
+{
+    background: linear-gradient(to bottom, #929ca1 0%, #212f3d 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+p
+{
+    font-size: 21px;
+    position: absolute;
+    left: 33vh;
+    top: 35vh;
+}
+
+.Boxs button
+{
+    padding: 20px 9px;
+    text-align: center;
+    width: 25%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    box-shadow: 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 2px 2px 2px rgba(206,89,55,0);
+}
+
+.Boxs button:hover 
+{
+    border: 3.4px solid black;
+}
+
+#Kolay
+{
+    position: absolute;
+    left: 11vh;
+    top: 28.5vh;
+}
+
+#Normal
+{
+    position: absolute;
+    left: 38.9vh;
+    top: 28.5vh;
+}
+#Zor
+{
+    position: absolute;
+    left: 67.2vh;
+    top: 28.5vh;
+}
+
+#TahminEt
+{
+    position: absolute;
+    left: 38.9vh;
+    top: 16vh;
+}
+
+#YeniOyun
+{
+    position: absolute;
+    left: 67.3vh;
+    top: 16vh;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .Container
+    {
+       height: 30vw;
+       left: 18%; 
+       top: 18vh;   
+    }
+
+    input
+    {  
+      padding: 20px 10px;
+    }  
+
+}
+
+@media screen and (max-width: 900px) 
+{
+    .Container
+    { 
+       height: 45vw;
+       width: 95vh;
+       left: 14.5%; 
+       top: 18vh;     
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .Container
+    { 
+       height: 45vw;
+       width: 95vh;
+       left: 12%;
+       top: 18vh;     
+    }
+
+    .Boxs button
+    {
+       padding: 10px;
+    }
+
+    #Kolay,#Normal,#Zor
+    {
+      top: 28.5vh;
+    }
+
+    h1
+    {
+        left: 17vh;
+    }
+
+}
